@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>SissiLinked</title>
+		<title>SissiLinked - Items</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -30,8 +30,8 @@
 	</head>
 	<body class="is-preload">
 	<!-- topnav -->
-		<div class="topnav" id="topnav">
-        <a class="active" href="homepage.html">SissiLinked</a>
+		<div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">SissiLinked</a>
         <a href="items.html"><i>Items</i></a>
         <a href="ermodel.html"><i>E/R Model</i></a>
         <a href="metadatastandards.html"><i>Metadata Standards</i></a>
@@ -40,9 +40,10 @@
         <a href="conceptualm.html"><i>Conceptual Model</i></a>
         <a href="datadescription.html"><i>Data Description</i></a>
         <a href="rdf.html"><i>RDF</i></a>
-        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+    	</a>
           </div>
-				
 					<!-- Five -->
 				<a name="items"></a>
 				<section class="spotlight style4 fullscreen orient-center content-align-left image-position-center onscroll-image-fade-in">
@@ -68,9 +69,9 @@
 									</a>
 									<div class="caption">
 										<h3>Photograph</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit.<br> <a href="https://www.npg.org.uk/collections/search/portrait/mw121456/Elisabeth-Empress-of-Austria?LinkID=mp85950&role=art&rNo=0">(National Portrait Gallery)</a></p>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit.<br>(National Portrait Gallery)</a></p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href="https://www.npg.org.uk/collections/search/portrait/mw121456/Elisabeth-Empress-of-Austria?LinkID=mp85950&role=art&rNo=0""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -82,7 +83,7 @@
 										<h3>Painting</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href="https://artsandculture.google.com/asset/portrait-of-emperor-franz-joseph-i/WgG-8UNRTDl_PA"><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -94,7 +95,7 @@
 										<h3>Litograph</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href="http://opac3.mnm.monguz.hu/en_GB/record/-/record/MNMMUSEUM1499393;jsessionid=4B51C33372AEFCF982B1BBF8B1D31F39"><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -106,7 +107,7 @@
 										<h3>Book</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href="https://sol.unibo.it/SebinaOpac/resource/luccheni-e-lantropologia-criminale/UBO1548215"><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -118,7 +119,7 @@
 										<h3>Dress</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href=""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -130,7 +131,7 @@
 										<h3>Article</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href="https://gallica.bnf.fr/ark:/12148/bpt6k518660c.item"><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -142,7 +143,7 @@
 										<h3>Carriage</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href=""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -154,7 +155,7 @@
 										<h3>Movie</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href=""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -163,10 +164,10 @@
 										<img src="images/gallery/thumbs/09.jpg" alt="" />
 									</a>
 									<div class="caption">
-										<h3>Photograph</h3>
+										<h3>Book</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href=""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -178,7 +179,7 @@
 										<h3>Music</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href="https://sounds.bl.uk/Classical-music/Chopin/026M-1LP0139145XX-0300V0"><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -190,7 +191,7 @@
 										<h3>Magna Lorem</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href=""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -202,7 +203,7 @@
 										<h3>Ipsum Dolor</h3>
 										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
+											<li><a href=""><span class="button small">Source</span></a></li>
 										</ul>
 									</div>
 								</article>
@@ -213,15 +214,16 @@
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-github"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-github"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-github"><span class="label">Instagram</span></a></li>
+								<li><a href="https://twitter.com/UniboDHDK" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/DHDK.unibo/" class="icon brands style2 fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/unibo/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 							</ul>
-							<p>&copy; SissiLinked. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							This is a non-commercial project for scholarly purposes only.
+							<br>
+							<a href="https://creativecommons.org/licenses/by-sa/4.0/">Copyright Creative Commons</a>
+							<p>&copy; SissiLinked. Images <a href="credits.html">Credits</a>.</p>
 						</div>
 					</footer>
-
-			</div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -230,6 +232,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 	</body>
 </html>

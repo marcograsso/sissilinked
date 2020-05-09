@@ -15,13 +15,12 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("topnav").style.top = "0";
+    document.getElementById("myTopnav").style.top = "0";
   } else {
-    document.getElementById("topnav").style.top = "-60px";
+    document.getElementById("myTopnav").style.top = "-60px";
   }
   prevScrollpos = currentScrollPos;
 }
-
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],

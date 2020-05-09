@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>SissiLinked</title>
+		<title>SissiLinked - ERmodel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -31,8 +31,8 @@
 	<body class="is-preload">
 	
 	<!-- topnav -->
-		<div class="topnav" id="topnav">
-        <a class="active" href="homepage.html">SissiLinked</a>
+		<div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">SissiLinked</a>
         <a href="items.html"><i>Items</i></a>
         <a href="ermodel.html"><i>E/R Model</i></a>
         <a href="metadatastandards.html"><i>Metadata Standards</i></a>
@@ -41,7 +41,9 @@
         <a href="conceptualm.html"><i>Conceptual Model</i></a>
         <a href="datadescription.html"><i>Data Description</i></a>
         <a href="rdf.html"><i>RDF</i></a>
-        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+    	</a>
           </div>
 				
 				<!-- ER model -->
@@ -59,23 +61,27 @@
 				<!--  Legend -->
 				<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>How to read the models</h2>
-							</div>
-										<div class="inner">
+							<h2>Legend</h2>
+							<h3>Some key features to read and understand the model<h3>
+							<br>
+							<br>
 											<span class="image fit"><img src="images/legendasissi.svg" alt="" /></span>
 							       		 </div>
 							       </section>
+							       
+							<br>
+							<br>
+							<br>
 				
 				 <!-- First Diagram -->
-								<section class="wrapper style2 align-center">
+								<section class="wrapper style2 align-center color1">
 										<div class="inner">
 											<span class="image fit"><img src="images/finalfortoday.svg" alt="" /></span>
-											
-												
+					    
 					                           <ul class="actions stacked">
 												<li><a href="diagram1.html" class="button small" id=positionx>Look closer</a></li>
 							       				 </ul>
-							       		 </div>
+			
 							       </section>
 									
 
@@ -85,20 +91,16 @@
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-github"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-github"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-github"><span class="label">Instagram</span></a></li>
+								<li><a href="https://twitter.com/UniboDHDK" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/DHDK.unibo/" class="icon brands style2 fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/unibo/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 							</ul>
-							<p>&copy; SissiLinked. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							This is a non-commercial project for scholarly purposes only.
+							<br>
+							<a href="https://creativecommons.org/licenses/by-sa/4.0/">Copyright Creative Commons</a>
+							<p>&copy; SissiLinked. Images <a href="credits.html">Credits</a>.</p>
 						</div>
 					</footer>
-
-			</div>
-			
-            <!-- <button id=btnScrollToTop onclick="location.href="#explore""> TOP </button> -->
-            <ul class="actions stacked">
-								<li><a href="#explore" class="button" id=btnScrollToTop>Top</a></li>
-							</ul>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -107,6 +109,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 	</body>
 </html>
